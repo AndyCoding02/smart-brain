@@ -41,7 +41,7 @@ function Particle() {
                 },
                 "detectRetina": true,
                 "duration": 0,
-                "fpsLimit": 120,
+                "fpsLimit": 40,
                 "interactivity": {
                     "detectsOn": "window",
                     "events": {
@@ -75,8 +75,8 @@ function Particle() {
                             "duration": 0.4,
                             "easing": "ease-out-quad",
                             "factor": 1,
-                            "maxSpeed": 50,
-                            "speed": 1
+                            "maxSpeed": 20,
+                            "speed": 0.4
                         },
                         "bounce": {
                             "distance": 200
