@@ -41,7 +41,7 @@ function Particle() {
                 },
                 "detectRetina": true,
                 "duration": 0,
-                "fpsLimit": 40,
+                "fpsLimit": 20,
                 "interactivity": {
                     "detectsOn": "window",
                     "events": {
@@ -139,13 +139,13 @@ function Particle() {
                         "trail": {
                             "delay": 0.005,
                             "pauseOnStop": true,
-                            "quantity": 5,
+                            "quantity": 2,
                             "particles": {
                                 "color": {
                                     "value": "#ff0000",
                                     "animation": {
                                         "enable": true,
-                                        "speed": 400,
+                                        "speed": 4,
                                         "sync": true
                                     }
                                 },
